@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
    return (
-      <footer className="font-bold text-[11px] pt-2">
+      <footer className="font-bold desktop:text-[11px] mobile:text-[9px] pt-2">
          Challenge by &nbsp;
          <a
             className="hover:opacity-70 text-purple"

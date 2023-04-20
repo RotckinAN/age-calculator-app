@@ -14,6 +14,15 @@ module.exports = {
       fontFamily: {
          sans: ['Poppins', 'Helvetica', 'Arial', 'sans-serif'],
       },
+      extend: {
+         backgroundImage: {
+            submitButton: "url('/assets/images/icon-arrow.svg')",
+         },
+      },
+      screens: {
+         mobile: '300px',
+         desktop: '900px',
+      },
    },
    plugins: [],
 };
