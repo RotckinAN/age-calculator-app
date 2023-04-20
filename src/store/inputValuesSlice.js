@@ -47,6 +47,16 @@ const inputValuesSlice = createSlice({
          }
 
          if (
+            !state.daysInputValid ||
+            !state.monthsInputValid ||
+            !state.yearsInputValid
+         ) {
+            state.totalDay = '- -';
+            state.totalMonths = '- -';
+            state.totalYears = '- -';
+         }
+
+         if (
             state.daysInputValue &&
             state.monthsInputValue &&
             state.yearsInputValue &&
